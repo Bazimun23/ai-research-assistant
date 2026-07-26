@@ -5,3 +5,5 @@ __pycache__/
 .env.save
 research_assistant.db
 vector_db/
+
+data/raw_documents/
