@@ -7,7 +7,7 @@ class Retriever:
     def __init__(self):
 
         self.client = chromadb.PersistentClient(
-            path="vector_db"
+            path="data/vector_db"
         )
 
         self.collection = self.client.get_or_create_collection(
